@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bomoko Entreprise</title>
+        <link rel="stylesheet"
+            href="{{url_for('static', filename='css/main.css')}}">
+        <link rel="stylesheet"
+            href="{{url_for('static', filename='lib/bulma/css/bulma.min.css')}}">
+        <link rel="stylesheet"
+            href="{{url_for('static', filename='lib/fontawesome/css/all.min.css')}}">
+        <link rel="icon" href="{{url_for('static', filename='img/LOGO BOMOKO.png')}}">
+    </head>
+    <body>
+        <section>
+            <!--<div class="header">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand header-logo">
+                    <img src="../static/img/LOGO BOMOKO BLANC 2.png" width="135" height="">
+                </div>
+            </nav>
+        </div>-->
+            <div class="container">
+                <div class="columns">
+                    <div class="column col-text" style="margin-top: 150px;">
+                        <h1 class="subtitle" style="color: #fff;">
+                            Vous êtes sur le site de
+                        </h1>
+                        <h3 class="title" style="color:#E8CC7E">
+                            <strong>Bomoko Entreprise</strong>
+                        </h3>
+                        <p style="color: #fff;">
+                            Le site est en construction.<br>
+                            Il sera mis en ligne dans quelques semaines...<br>
+                            Restez connecter et ayez nos nouvelles sur les
+                            réseaux sociaux<br>
+                            <a href="https://facebook.com/BomokoEntreprise" target="_blank" class="social">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>&nbsp;&nbsp;
+                            <a href="https://www.instagram.com/bomoko_entreprise_?igsh=YzAwZjE1ZTI0Zg==8" target="_blank" class="social">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>&nbsp;&nbsp;
+                            <a href="https://www.youtube.com/@BOMOKOENTREPRISE" target="_blank" class="social">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>&nbsp;&nbsp;
+                            <a href="https://www.tiktok.com/@bomoko_entreprise25?_t=8iYoSu11ujt&_r=1" target="_blank" class="social">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>&nbsp;&nbsp;
+                            <a href="https://mobile.twitter.com/mr_bomoko" target="_blank" class="social">
+                                <i class="fa-brands fa-square-x-twitter"></i>
+                            </a>&nbsp;&nbsp;
+                        </p>
+                        <p><br>
+                            <form method="POST">
+                                <strong style="color: white;">Laissez nous
+                                        une notification</strong><br>
+                                <div class="columns">
+                                    <div class="column">
+                                        <div class="field">
+                                            <div class="control has-icons-left">
+                                                <input type="text"
+                                                    name="notification" id="msg"
+                                                    class="input is-danger"
+                                                    placeholder="Votre notification"
+                                                    required>
+                                                <span
+                                                    class="icon is-left is-small">
+                                                    <i
+                                                        class="fa-solid fa-envelope"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="field">
+                                            <div class="control">
+                                                <input type="submit"
+                                                    value="Envoyez"
+                                                    class="button is-warning is-outlined button-transition">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </form>
+
+                        </p><br>
+                        <p>
+                            <img src="{{url_for('static', filename='img/LOGO BOMOKO BLANC 2.png')}}" width="135" height="35">
+                        </p>
+                    </div>
+                    <div class="column box" style="margin-top: 150px;">
+                        <img
+                            src="{{url_for('static', filename='img/Humaaans - Friend Meeting.png')}}"
+                            width="500px" height="500px" class="humaaans"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="{{url_for('static', filename='lib/fontawesome/js/all.min.js')}}"></script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;
+}
+@media screen and (max-width: 768px){
+    section{
+        margin-top: -150px;
+    }
+}
+section{
+    background-image: url(../img/BOMOKO\ BG\ SITE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 105vh;
+}
+.button-transition{
+    transition: 0.5s ease;
+}
+.social{
+    text-decoration: none;
+    color: white;
+}
+.social a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+.social a:hover{
+    color: #E8CC7E;
+    transition: 0.5s ease;
+}
+.label{
+    color: white;
+}
+/*
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    top: 0;
+}
+.header .header-logo{
+    color: white;;
+    float: left;
+    margin-top: 30px;
+}
+.header .header-menu{
+    float: right;
+    margin-top: 30px;
+}
+.header .header-menu a{
+    margin-right: 15px;
+    color: white;
+}
+.header .header-menu a:hover{
+    color: #C9696D;
+    transition: 0.5s ease;
+}
+.banner{
+    margin-top: -25px;
+}
+.banner .banner-image{
+    position: relative;
+}
+.banner .banner-content{
+    position: absolute; 
+    width: 100%;
+    top: 30%;
+    color: white;
+}*/
